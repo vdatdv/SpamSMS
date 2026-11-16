@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archives & Course Material
+MCL.zip
+*.zip
+
+# Exclude LaTeX Template from code repo (Lựa chọn 1: Chỉ up Code)
+Template_BCTT_DATN-main/
+*.tex
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
