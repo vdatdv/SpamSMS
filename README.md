@@ -1,9 +1,9 @@
-# PHÂN LOẠI TIN NHẮN RÁC (SPAM MESSAGE CLASSIFICATION) SỬ DỤNG HỌC MÁY
+# PHÂN LOẠI TIN NHẮN RÁC
 
 > **BÀI TẬP LỚN HỌC PHẦN: NHẬP MÔN HỌC MÁY (MCL)**  
 > **Khoa Công nghệ Thông tin – Trường Đại học Đại Nam**  
 > **Giảng viên hướng dẫn:** ThS. Lê Thị Thùy Trang  
-> **Nhóm thực hiện:** NHÓM 5  
+> **Nhóm thực hiện:** NHÓM 12  
 **Sinh viên thực hiện:**  
 1. Đỗ Vinh Đạt - 1871020126 (07/10/2006)  
 2. Ngô Văn Hào - 1871020219 (09/02/2006)  
