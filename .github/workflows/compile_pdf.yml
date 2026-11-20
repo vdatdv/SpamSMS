@@ -1,0 +1,26 @@
+name: Build LaTeX PDF
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: Template_BCTT_DATN-main
+          latexmk_use_xelatex: true
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BaoCao_PhanLoaiTinNhanRac
+          path: Template_BCTT_DATN-main/main.pdf
